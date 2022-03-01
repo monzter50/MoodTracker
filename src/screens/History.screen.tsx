@@ -6,7 +6,7 @@ export const HistoryScreen: React.FC = () => {
   const appContext = useAppContext();
   return (
     <View style={styles.container}>
-      {appContext.selectedMood.map(mood => (
+      {appContext.selectedMoods.map(mood => (
         <MoodItemRow
           key={mood.timestamp}
           mood={mood.mood}
