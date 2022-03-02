@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: theme.primaryColor,
     fontWeight: 'bold',
+    fontFamily: theme.fontFamilyBold,
   },
   moodValue: {
     textAlign: 'center',
@@ -49,5 +50,6 @@ const styles = StyleSheet.create({
   moodDate: {
     textAlign: 'center',
     color: theme.colorLavender,
+    fontFamily: theme.fontFamilyRegular,
   },
 });

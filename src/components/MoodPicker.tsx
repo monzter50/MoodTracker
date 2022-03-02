@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
   },
   descriptionText: {
     textAlign: 'center',
+    fontFamily: theme.fontFamilyRegular,
   },
   container: {
     borderWidth: 2,
@@ -97,6 +98,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     textAlign: 'center',
     letterSpacing: 1,
+    fontFamily: theme.fontFamilyRegular,
   },
   button: {
     backgroundColor: theme.primaryColor,
@@ -110,6 +112,7 @@ const styles = StyleSheet.create({
     color: theme.colorText,
     textAlign: 'center',
     fontWeight: 'bold',
+    fontFamily: theme.fontFamilyBold,
   },
   image: {
     height: 100,
