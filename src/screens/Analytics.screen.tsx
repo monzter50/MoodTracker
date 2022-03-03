@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { VictoryPie } from 'victory-native';
 import { useAppContext } from '../Providers/App.provider';
 import { theme } from '../theme';
+
 export const AnalyticsScreen: React.FC = () => {
   const appContext = useAppContext();
   const data = Object.entries(
